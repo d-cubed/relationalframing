@@ -1,4 +1,10 @@
 """
+This was forked from Ian Hussey - apparently years ago. 
+His latest version is from 2016 but was much revised from what I worked from. 
+His up to date version is here: https://github.com/ianhussey/RedditCommentScraper
+But beware - it seems to be Python 2.7
+
+
 Description:
     1. Scrape all comments from a given reddit thread
     2. Extract top level comments
