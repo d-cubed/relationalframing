@@ -1,5 +1,3 @@
-
-# -*- coding: utf-8 -*-
 """
 Description:
     1. Scrape all comments from a given reddit thread
@@ -20,7 +18,6 @@ Current version:
 Known issues:
     None.
 
-
 Notes From Ian :
     1. Although the script only uses publiclly available information,
     PRAW's call to the reddit API requires a reddit login (see line 47).
@@ -39,11 +36,7 @@ import sys
 import pickle
 from importlib import reload
 
-
 #https://atomar94.github.io/playing-with-reddit-using-python-praw-and-pandas/
-
-
-
 # Change directory to that of the current script
 absolute_path = os.path.abspath(__file__)
 directory_name = os.path.dirname(absolute_path)
@@ -62,9 +55,6 @@ submission = r.submission(id='bnffyo') ###bicycles almost got my bike stolen app
 
 #https://praw.readthedocs.io/en/latest/code_overview/models/submission.html
 submission.comments.replace_more(limit=0, threshold=0)
-
-
-#comments = submission.comments.list()
 
 if(os.path.isdir("./data/")):
     pass
