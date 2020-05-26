@@ -8,4 +8,6 @@ Visualization includes:
 sentiment analysis - how positive and negative [there are basically 50 million tutorials about this] 
 the relationships expressed regarding the topic, i.e. its relational framing
 
+This is a work in progress. It will be cleaned up and organized. 
+
 1. scraper.py - grabs data from reddit - you'll need your own credetnials and submission IDs
